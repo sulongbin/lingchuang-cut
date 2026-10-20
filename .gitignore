@@ -1,0 +1,9 @@
+local-config.json
+.runtime/
+__pycache__/
+*.pyc
+node_modules/
+output/
+review/
+.env
+.env.*

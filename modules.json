@@ -1,0 +1,43 @@
+[
+  {
+    "id": "html-motion",
+    "archive": "bundles/html-motion.zip",
+    "sha256": "46c1c253538769994d23a63f54f4c142287b1d338db6d99014f383e011d6191e",
+    "source": "https://github.com/heygen-com/hyperframes",
+    "license": "Apache-2.0",
+    "snapshot": "local installed snapshot 2026-10-21"
+  },
+  {
+    "id": "shot-design",
+    "archive": "bundles/shot-design.zip",
+    "sha256": "f1cc7e6344ef597c0bf56ff24be4e928b3e21f8c40b1f7e32f0553c79e1c6355",
+    "source": "https://github.com/Vincentwei1021/video-shotcraft",
+    "license": "Apache-2.0",
+    "snapshot": "local installed snapshot 2026-10-21",
+    "omitted": "Demo binary media; source and documentation retained. See archive packaging note."
+  },
+  {
+    "id": "diagram-motion",
+    "archive": "bundles/diagram-motion.zip",
+    "sha256": "ea89bf080d350b150790e15929e50e6cd170bf5ec4dd47db148a62d915b12c08",
+    "source": "https://github.com/adithya-s-k/manim_skill",
+    "license": "MIT",
+    "snapshot": "local installed snapshot 2026-10-21"
+  },
+  {
+    "id": "interface-motion",
+    "archive": "bundles/interface-motion.zip",
+    "sha256": "57e9c0f3ca3a0a90c378a588bce4c297a9dc6dec2e54b45261d49994b65ccbf9",
+    "source": "https://github.com/199-biotechnologies/motion-dev-animations-skill",
+    "license": "MIT",
+    "snapshot": "local installed snapshot 2026-10-21"
+  },
+  {
+    "id": "page-layout",
+    "archive": "bundles/page-layout.zip",
+    "sha256": "ad2cc2793d6e9569ffc5baab1e9feef0c3d8c4d14cb14f2506eb7e70b20ef0ae",
+    "source": "https://github.com/GJS-market/grapesjs-claude-skill",
+    "license": "MIT",
+    "snapshot": "local installed snapshot 2026-10-21"
+  }
+]
