@@ -1,4 +1,4 @@
 interface:
   display_name: "lingchuang-cut"
-  short_description: "中文口播与案例视频剪辑：动态画中画、视觉动画、素材编排及人物封面"
-  default_prompt: "使用 $lingchuang-cut 剪辑提供的原片，按内容安排素材与动画，完成封面和成片检查。"
+  short_description: "先确认口播、Vlog 或教程类型，再安排素材、画中画、视觉动画与封面"
+  default_prompt: "使用 $lingchuang-cut 剪辑提供的原片，先确认视频类型与风格，再安排素材与动画，完成封面和成片检查。"

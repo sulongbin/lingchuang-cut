@@ -39,3 +39,9 @@ Bundled demo media and brands are reference examples. Review the applicable asse
 
 ## Source-only shot module
 The shot-design archive omits demo binary media (audio, video, images, fonts). Text/source files are preserved. The exact omissions are listed inside LINGCHUANG_PACKAGING_NOTE.txt. Templates require replacement assets before rendering.
+
+## kinetic-tech open template
+- Source: https://github.com/motiontemplates/385712
+- Version: 0.2.29-open-beta; original content archive preserved, SHA256 recorded in templates.json.
+- MIT template code: licenses/motiongit-kinetic-tech.txt. Bundled fonts retain OFL notices; unchanged MotionGit brand assets retain their separate redistribution/display permission.
+- Personal delivery envelope, account credentials, receipts and protected templates are excluded. All original inner licenses remain in the archive.

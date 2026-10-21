@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kinetic-tech",
+    "version": "0.2.29-open-beta",
+    "file": "assets/templates/kinetic-tech-0.2.29-open-beta.zip",
+    "sha256": "61581ded3174b941b24ca2af3d8fbf027599db2da1573fd5a94b9d6af26c5670",
+    "source": "https://github.com/motiontemplates/385712",
+    "license": "MIT + bundled asset licenses",
+    "credentialsIncluded": false,
+    "protection": "open",
+    "entry": "kinetic_bootstrap.py",
+    "validation": "archive and credential scan passed; rendering not tested"
+  }
+]
