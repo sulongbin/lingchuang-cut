@@ -72,10 +72,32 @@ lingchuang-cut 是面向 AI 编程智能体的中文视频剪辑技能包，适�
 Windows 的 WorkBuddy：
 
 ```powershell
-npx.cmd --yes github:sulongbin/lingchuang-cut --app workbuddy
+npx.cmd --yes --package=github:sulongbin/lingchuang-cut lingchuang-cut-install --app workbuddy
 ```
 
-Codex：`npx.cmd --yes github:sulongbin/lingchuang-cut --app codex`。需要 Node.js/npm；安装器只安装技能文件，不自动安装剪辑工具。WorkBuddy 安装到 `%USERPROFILE%\.workbuddy\skills\lingchuang-cut`。若目录已存在，安装器不会覆盖；先自行备份再更新。安装后重启应用或新建对话检查识别，并选择本地素材库。
+Codex：`npx.cmd --yes --package=github:sulongbin/lingchuang-cut lingchuang-cut-install --app codex`。需要 Node.js 18 或更高版本（建议使用仍受支持的 LTS 版本）、npm、Git 以及可访问 GitHub 的网络；安装器只安装技能文件，不自动安装剪辑工具。WorkBuddy 安装到 `%USERPROFILE%\.workbuddy\skills\lingchuang-cut`。若目录已存在，安装器不会覆盖；将原目录备份到 skills 目录之外，再安装，并恢复自己的 `local-config.json`。安装后重启应用或新建对话检查识别，并选择本地素材库。
+
+### 发给会员的安装提示词
+
+```text
+请帮我安装 lingchuang-cut（灵创智影 AI 剪辑）技能。
+仓库：https://github.com/sulongbin/lingchuang-cut
+先阅读安装说明，检查本机 Node.js、npm 和 Git，再执行适用于 Windows WorkBuddy 的命令：
+npx.cmd --yes --package=github:sulongbin/lingchuang-cut lingchuang-cut-install --app workbuddy
+如果已有旧版，先备份到技能目录之外，保留个人 local-config.json，再安装新版并恢复个人配置。
+如果网络下载失败，明确报告原因，可改用我提供的新版 ZIP；不要把失败报告成安装成功。
+完成后检查 SKILL.md、references、bundles 和 assets 是否齐全，并在 WorkBuddy 中确认技能可识别。
+提醒我选择自己的本地素材库；先确认剪辑类型与风格，再开始制作。
+本次只安装和检查，不开始剪辑，不提交付费生成任务，不要求我把 API Key 发到聊天中。
+```
+
+### ZIP 备用安装
+
+下载 [v1.3.1 完整 ZIP](https://github.com/sulongbin/lingchuang-cut/raw/refs/heads/main/lingchuang-cut-v1.3.1.zip)，将其中的 `lingchuang-cut` 文件夹放到 `%USERPROFILE%\.workbuddy\skills\`，确保 `SKILL.md` 直接位于 `lingchuang-cut` 内。已有版本先按上述步骤备份和恢复个人配置。仓库保留的 `v1.0.0`、`v1.2.1` ZIP 是历史快照，不含本次更新。
+
+安装成功与成功剪出视频是两个验收阶段。渲染工具、转写及图像生成服务需按实际项目检查；会员的网络和 WorkBuddy 识别结果也须在其电脑上确认。
+
+v1.3.1 安装验收：从实际 npm 安装包在隔离目录安装到 WorkBuddy、Codex 均通过；逐文件与源文件一致，5 个模块及开放模板校验和通过，重复安装会拒绝覆盖并保留个人配置。仓库内运行 `npm test` 可复查。此次 GitHub 在线下载测试超时，未将其或 WorkBuddy 界面识别记为已通过。
 
 ## 素材动效升级
 

@@ -1,7 +1,13 @@
 {
   "name": "lingchuang-cut-installer",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/install.test.cjs"
+  },
   "bin": {
     "lingchuang-cut-install": "bin/install.cjs"
   },
