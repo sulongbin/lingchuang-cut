@@ -1,1 +1,23 @@
-{"name":"lingchuang-cut-installer","version":"1.3.0","private":true,"bin":{"lingchuang-cut-install":"bin/install.cjs"},"files":["bin","SKILL.md","README.md","LICENSE","THIRD_PARTY_NOTICES.md","agents","references","scripts","modules.json","templates.json","assets","licenses"]}
+{
+  "name": "lingchuang-cut-installer",
+  "version": "1.3.0",
+  "private": true,
+  "bin": {
+    "lingchuang-cut-install": "bin/install.cjs"
+  },
+  "files": [
+    "bin",
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "agents",
+    "references",
+    "scripts",
+    "modules.json",
+    "templates.json",
+    "assets",
+    "licenses",
+    "bundles"
+  ]
+}
