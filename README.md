@@ -66,3 +66,17 @@ lingchuang-cut 是面向 AI 编程智能体的中文视频剪辑技能包，适�
 内置科技风开放内容包 0.2.29-open-beta，不含个人账户 Key。运行 `python scripts/templates.py list` 查看，`python scripts/templates.py unpack kinetic-tech` 展开。受保护模板不下载、不引用。详见 [开放模板](references/open-templates.md)。
 
 已验证压缩包完整性、账户凭据排除和无 Key 本地 capabilities／doctor 入口。完整渲染尚未验证；本机检查仍缺独立 Python 3.13 依赖环境及可发现的 ffprobe。
+
+## WorkBuddy 和 Codex 安装
+
+Windows 的 WorkBuddy：
+
+```powershell
+npx.cmd --yes github:sulongbin/lingchuang-cut --app workbuddy
+```
+
+Codex：`npx.cmd --yes github:sulongbin/lingchuang-cut --app codex`。需要 Node.js/npm；安装器只安装技能文件，不自动安装剪辑工具。WorkBuddy 安装到 `%USERPROFILE%\.workbuddy\skills\lingchuang-cut`。若目录已存在，安装器不会覆盖；先自行备份再更新。安装后重启应用或新建对话检查识别，并选择本地素材库。
+
+## 素材动效升级
+
+优先在真实口播、产品照片和操作录屏上制作合适的运动、轮廓光、空间层次和转场；保留画面可读和音画同步。缺少素材时可按内容生成并标记示意。3D 工具和图像生成需要环境支持，先做短预览；具体能力与测试限制见 [视觉规则](references/visual.md)。按每位用户要求决定是否配乐。
